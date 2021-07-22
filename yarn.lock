@@ -8975,10 +8975,10 @@ ipaddr.js@1.9.1, ipaddr.js@^1.9.0:
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
   integrity sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
 
-iridiumfinance@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/iridiumfinance/-/iridiumfinance-1.0.2.tgz#11e71da09c0ec1003fb0456c0bb527e966026088"
-  integrity sha512-9DIEL44Ov4xXamnCkfdSDYPOstDNazs1nERt5x4vYxHn4yplqHAM0OfPP+GRLJWK8b5PVJxb+PI1qJrOdzDzFg==
+iridiumfinance@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/iridiumfinance/-/iridiumfinance-1.0.3.tgz#195e2cba79cfced74d9bac6f0cae95ec04035c5c"
+  integrity sha512-kBbsuBR+lz5UI5i1sKkLpHWmkDosgLaCar0F2ty9jSMeXO4Co/1EVKBux8S25npdDb2lIiOLS73m4BjNMWO2Sw==
   dependencies:
     "@popperjs/core" "^2.9.2"
     "@types/lodash" "^4.14.168"
