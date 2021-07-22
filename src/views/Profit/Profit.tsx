@@ -68,14 +68,12 @@ const Farm: React.FC = () => {
 
   return (
     <Page>
-      <Hero>
         <Heading as="h1" scale="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
             {TranslateString(998, 'To reward our original layer holders, you may stake PLATIN to receive our new token, IRID.')}
         </Heading>
         <Heading as="h1" scale="md" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-            {TranslateString(10006, 'The pool will be added 48 hours before launch.')}
+            {TranslateString(10006, 'The pool will be added 48 hours before farming begins.')}
         </Heading>
-      </Hero>
       <Divider />
       <FlexLayout>
         <Route exact path={`${path}`}>

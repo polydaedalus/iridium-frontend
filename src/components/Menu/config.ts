@@ -8,7 +8,7 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Parallel farming',
-    icon: 'LayerIcon',
+    icon: 'HamburgerIcon',
     items: [
       {
         label: 'Platinum Finance',
