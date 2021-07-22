@@ -2327,71 +2327,69 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
-"@toruslabs/eccrypto@^1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@toruslabs/eccrypto/-/eccrypto-1.1.7.tgz#962954d6416f56ca2ba9bb9948cd08bd3b8cd0c4"
-  integrity sha512-zU4GnrH21yDY179fgp5Ovi4YjLdHy3WXM3QHCHAomYNxa03eAw2lxNR2bZ7kb698yk40s4WMrbnauukgabXH4Q==
+"@toruslabs/eccrypto@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@toruslabs/eccrypto/-/eccrypto-1.1.6.tgz#ce877cf00d6f9cf7ab3daa6ac4d6d540110b813b"
+  integrity sha512-L3TAsdEARouyzTbSKE0PqcYXmHQiFh95FB2YnsRbWERCAF0VWg3kY/YA//M/HBZqCJoRwa5WRA61lWbM7zAX5Q==
   dependencies:
-    acorn "^8.4.1"
-    elliptic "^6.5.4"
+    acorn "^7.4.0"
+    elliptic "^6.5.3"
     es6-promise "^4.2.8"
-    nan "^2.14.2"
+    nan "^2.14.1"
   optionalDependencies:
     secp256k1 "^3.8.0"
 
 "@toruslabs/fetch-node-details@^2.6.1":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@toruslabs/fetch-node-details/-/fetch-node-details-2.7.0.tgz#a966ce78d1345db32c29225b8a31154658388b7e"
-  integrity sha512-Dt0bU1GBN9AZlCoNzDJ4PjzcP/NV3yz9dXVRZWE1kWeeDbzdexUF47kiTuJVcrxKsnCjpz7ins1TNFrDFdsOQg==
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@toruslabs/fetch-node-details/-/fetch-node-details-2.6.1.tgz#33b33d4dc825c47666a4e96df22ac0ba7f2296d6"
+  integrity sha512-z3SDyjpt3kjym7gJ6uWVYy3pnigMxv2kFz36tJ+CXR7s4yx7PWlxPI/adMtPG/pbEdyl8w72tvD7wdh9DlGRVw==
   dependencies:
-    web3-eth-contract "^1.4.0"
-    web3-utils "^1.4.0"
+    web3-eth-contract "^1.3.6"
+    web3-utils "^1.3.6"
 
-"@toruslabs/http-helpers@^1.3.7", "@toruslabs/http-helpers@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@toruslabs/http-helpers/-/http-helpers-1.4.0.tgz#6d2d4129d1126876b0616b7dffec3f4b339739b5"
-  integrity sha512-lPRhTWeChQunds2CGV70xvaoFMMebZAqZLpTYZjUJfziumQjT12w9HWLIzlRfGFVKoYUsUiZLpGHl0JEwHCcqg==
+"@toruslabs/http-helpers@^1.3.7":
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/@toruslabs/http-helpers/-/http-helpers-1.3.7.tgz#c2cf64ba628699a01d2808d21ec2158688f2ed75"
+  integrity sha512-UcoFUBb74sD5bPRSXHtJRi1X3Q4reqd1a1nqekDuoZ9csadabNddUwd1CJ3kqaKiNWIe6lqB7E/XnwVMC39xdA==
   dependencies:
     deepmerge "^4.2.2"
 
 "@toruslabs/torus-embed@^1.8.0":
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/@toruslabs/torus-embed/-/torus-embed-1.11.0.tgz#7237d5f5e655c1868e7e608c75217e81f210da37"
-  integrity sha512-PUflyaXVqF6mebQtY7szmY5i6NjNRSUT/Cs/taqqUSykwad+CSLY6O5tyBmtmoiDO8dG3pf39IXevC/vdI3Gjg==
+  version "1.10.22"
+  resolved "https://registry.yarnpkg.com/@toruslabs/torus-embed/-/torus-embed-1.10.22.tgz#0e81499d3be44c355956d4c6dda9a8a2542efaa0"
+  integrity sha512-GxnpeAv15IekBc+rFGehNLG9E1iHD4QX1RZcr0bQ8KBNJCmrq4ZArAtWq3B2LQUtRGK+Y/gne+HfZQu6RDP+fg==
   dependencies:
     "@chaitanyapotti/random-id" "^1.0.3"
-    "@metamask/obs-store" "^6.0.2"
-    "@metamask/post-message-stream" "^4.0.0"
-    "@metamask/safe-event-emitter" "^2.0.0"
     "@toruslabs/fetch-node-details" "^2.6.1"
     "@toruslabs/http-helpers" "^1.3.7"
     "@toruslabs/torus.js" "^2.3.1"
     create-hash "^1.2.0"
     deepmerge "^4.2.2"
-    end-of-stream "^1.4.4"
     eth-rpc-errors "^4.0.3"
     fast-deep-equal "^3.1.3"
     is-stream "^2.0.0"
     json-rpc-engine "^6.1.0"
     json-rpc-middleware-stream "^3.0.0"
     loglevel "^1.7.1"
-    once "^1.4.0"
+    obj-multiplex "^1.0.0"
+    obs-store "^4.0.3"
+    post-message-stream "^3.0.0"
     pump "^3.0.0"
-    readable-stream "^3.6.0"
+    safe-event-emitter "^1.0.1"
 
 "@toruslabs/torus.js@^2.3.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@toruslabs/torus.js/-/torus.js-2.4.1.tgz#e955ef7dd1d256c028a3ba94117984855c1a4013"
-  integrity sha512-W/+yZbDsRC0voZPhFR6OkTW+/pB3Xxstl59WqI/BxEoNTk67vgizN6+2L5WchyHJKPbowEdQw26mqWemVQRAQw==
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@toruslabs/torus.js/-/torus.js-2.4.0.tgz#64206d593f7189203226564783fb74f44d545d18"
+  integrity sha512-ih5iMy8J5xRLTRP/YO6tn5UU2ZT2mblpNVlZUWhGqbAgmoLD0BKdjuDmidja9EFWtY1hkAILS+eKDsm7NHJzOg==
   dependencies:
-    "@toruslabs/eccrypto" "^1.1.7"
-    "@toruslabs/http-helpers" "^1.4.0"
+    "@toruslabs/eccrypto" "^1.1.6"
+    "@toruslabs/http-helpers" "^1.3.7"
     bn.js "^5.2.0"
     elliptic "^6.5.4"
     json-stable-stringify "^1.0.1"
     loglevel "^1.7.1"
     memory-cache "^0.2.0"
-    web3-utils "^1.4.0"
+    web3-utils "^1.3.6"
 
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.15"
