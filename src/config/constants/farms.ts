@@ -2,20 +2,20 @@ import contracts from './contracts'
 import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
-  // {
-  //  pid: 0,
-  //  risk: 5,
-  //  lpSymbol: 'IRID-PLATIN LP',
-  //  lpAddresses: {
-  //    137: '0xD592bfB50ad10088A428F1a4e74213090fC4A6dC',
-  //  },
-  //  tokenSymbol: 'PLATIN',
-  //  tokenAddresses: {
-  //    137: '0x782eb3304F8b9adD877F13a5cA321f72c4AA9804',
-  //  },
-  //  quoteTokenSymbol: QuoteToken.CAKE,
-  //  quoteTokenAdresses: contracts.cake,
-  // },
+  {
+    pid: 0,
+    risk: 5,
+    lpSymbol: 'IRID-PLATIN LP',
+    lpAddresses: {
+      137: '0xD592bfB50ad10088A428F1a4e74213090fC4A6dC',
+    },
+    tokenSymbol: 'PLATIN',
+    tokenAddresses: {
+      137: '0x782eb3304F8b9adD877F13a5cA321f72c4AA9804',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
   {
     pid: 1,
     risk: 5,
