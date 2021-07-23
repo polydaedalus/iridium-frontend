@@ -57,7 +57,7 @@ const Home: React.FC = () => {
           {TranslateString(578, "A layer 2 DeFi protocol from the Platinum Finance ecosystem.")}
         </Heading>
         <Heading as="h1" scale="md" mt="10px" mb="24px" color="secondary">
-          {TranslateString(545, 'Farming will begin at ')}<a href="https://polygonscan.com/block/countdown/17265000" rel="noreferrer" target="_blank">block #17265000</a>
+          {TranslateString(545, 'Farming will begin at ')}<a href="https://polygonscan.com/block/countdown/17285000" rel="noreferrer" target="_blank">block #17285000</a>
         </Heading>  
       </Hero>
       <div>
