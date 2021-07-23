@@ -7,11 +7,11 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'IRID-PLATIN LP',
     lpAddresses: {
-      137: '0x1996ABaFb1ce1de7B5357eC9D281Bc378A0b8DEd',
+      137: '0xD592bfB50ad10088A428F1a4e74213090fC4A6dC',
     },
     tokenSymbol: 'PLATIN',
     tokenAddresses: {
-      137: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
+      137: '0x782eb3304F8b9adD877F13a5cA321f72c4AA9804',
     },
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
@@ -21,11 +21,11 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'IRID-USDC LP',
     lpAddresses: {
-      137: '0x60BEFF3E9d3b4E8409471Ecc58e568EB153F1e00',
+      137: '0x4F34831Ac774978BC1f192c45B574022D5969103',
     },
     tokenSymbol: 'IRID',
     tokenAddresses: {
-      137: '0x782eb3304F8b9adD877F13a5cA321f72c4AA9804',
+      137: '0x4523e85C144DE8Dd60acEc335bfC95fa87779D7C',
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
@@ -35,7 +35,7 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'IRID-WMATIC LP',
     lpAddresses: {
-      137: '0x8c79D1CcB5E5Ea4Df5e0FF14b59A305f2808ac93',
+      137: '0x4A945aD2D521Dbc2a2fDfeBb69547CB944B40AF3',
     },
     tokenSymbol: 'WMATIC',
     tokenAddresses: {
@@ -50,11 +50,11 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'PLATIN-USDC LP',
     lpAddresses: {
-      137: '0x1996ABaFb1ce1de7B5357eC9D281Bc378A0b8DEd',
+      137: '0x60BEFF3E9d3b4E8409471Ecc58e568EB153F1e00',
     },
     tokenSymbol: 'PLATIN',
     tokenAddresses: {
-      137: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
+      137: '0x782eb3304F8b9adD877F13a5cA321f72c4AA9804',
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
@@ -143,11 +143,11 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'IRID',
     lpAddresses: {
-      137: '0x60BEFF3E9d3b4E8409471Ecc58e568EB153F1e00'
+      137: '0x4F34831Ac774978BC1f192c45B574022D5969103'
     },
     tokenSymbol: 'IRID',
     tokenAddresses: {
-      137: '0x782eb3304F8b9adD877F13a5cA321f72c4AA9804'
+      137: '0x4523e85C144DE8Dd60acEc335bfC95fa87779D7C'
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
@@ -272,11 +272,11 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'DAI',
     lpAddresses: {
-      137: '0x2cf7252e74036d1da831d11089d326296e64a728'
+      137: '0xf04adbf75cdfc5ed26eea4bbbb991db002036bdd'
     },
     tokenSymbol: 'DAI',
     tokenAddresses: {
-      137: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174'
+      137: '0x8f3cf7ad23cd3cadbd9735aff958023239c6a063'
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
@@ -292,7 +292,7 @@ const farms: FarmConfig[] = [
     },
     tokenSymbol: 'USDT',
     tokenAddresses: {
-      137: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174'
+      137: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f'
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
