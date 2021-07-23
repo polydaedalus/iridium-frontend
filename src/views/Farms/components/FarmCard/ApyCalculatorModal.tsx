@@ -129,7 +129,7 @@ const ApyCalculatorModal: React.FC<ApyCalculatorModalProps> = ({
         )}
       </Description>
       <Flex justifyContent="center">
-        <LinkExternal href={`https://quickswap.exchange/#/add/${liquidityUrlPathParts}`}>
+        <LinkExternal color='secondary' href={`https://quickswap.exchange/#/add/${liquidityUrlPathParts}`}>
           {TranslateString(999, 'Get')} {lpLabel}
         </LinkExternal>
       </Flex>

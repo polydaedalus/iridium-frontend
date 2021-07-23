@@ -25,7 +25,7 @@ const Wrapper = styled.div`
 const StyledLinkExternal = styled(LinkExternal)`
   text-decoration: none;
   font-weight: normal;
-  color: ${({ theme }) => theme.colors.text};
+  color: ${({ theme }) => theme.colors.secondary};
   display: flex;
   align-items: center;
 
@@ -33,7 +33,7 @@ const StyledLinkExternal = styled(LinkExternal)`
     padding-left: 4px;
     height: 18px;
     width: auto;
-    fill: ${({ theme }) => theme.colors.primary};
+    fill: ${({ theme }) => theme.colors.secondary};
   }
 `
 
@@ -81,7 +81,7 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
         </Flex>
       )}
       <Flex justifyContent="flex-start">
-        <Link external href={bscScanAddress} bold={false}>
+        <Link external href={bscScanAddress} bold={false} color='secondary'>
           {TranslateString(356, 'View on PolygonScan')}
         </Link>
       </Flex>
