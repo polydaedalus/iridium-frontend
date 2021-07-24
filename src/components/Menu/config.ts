@@ -77,10 +77,10 @@ const config: MenuEntry[] = [
       //  label: 'PolyChart',
       //  href: 'https://app.polychart.io/explorer/polygon/0x8c79d1ccb5e5ea4df5e0ff14b59a305f2808ac93',
       // },
-      // {
-      //  label: 'DexGuru',
-      //  href: 'https://dex.guru/token/0x4523e85C144DE8Dd60acEc335bfC95fa87779D7C-polygon',
-      // },
+      {
+        label: 'DexGuru',
+        href: 'https://dex.guru/token/0x4523e85C144DE8Dd60acEc335bfC95fa87779D7C-polygon',
+      },
       {
         label: 'PooCoin',
         href: 'https://polygon.poocoin.app/tokens/0x4523e85C144DE8Dd60acEc335bfC95fa87779D7C',
@@ -99,6 +99,10 @@ const config: MenuEntry[] = [
         label: 'Docs',
         href: 'https://app.gitbook.com/@platinum-finance/s/iridium-finance/',
       },
+      {
+        label: 'Vfat.tools',
+        href: 'https://vfat.tools/polygon/iridiumfinance/',
+      }
     ],
   },
 ]
