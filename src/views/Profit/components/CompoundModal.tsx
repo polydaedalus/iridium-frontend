@@ -23,6 +23,7 @@ const CompoundModal: React.FC<DepositModalProps> = ({ earnings, onConfirm, onDis
 
   return (
     <Modal
+      color='secondary'
       title={`${TranslateString(999, 'Compound')} IRID Earned`}
       onDismiss={onDismiss}
     >
@@ -30,7 +31,7 @@ const CompoundModal: React.FC<DepositModalProps> = ({ earnings, onConfirm, onDis
         <Balance value={Number(fullBalance)} />
       </BalanceRow>
       <ModalActions>
-        <Button variant="secondary" onClick={onDismiss}>
+        <Button color='secondary' variant="secondary" onClick={onDismiss}>
           {TranslateString(462, 'Cancel')}
         </Button>
         <Button
@@ -57,4 +58,5 @@ const BalanceRow = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  color: ${(props) => props.theme.colors.secondary};
 `

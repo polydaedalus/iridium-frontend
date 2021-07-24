@@ -40,8 +40,8 @@ const RainbowLight = keyframes`
 const StyledCardAccent = styled.div`
 background: linear-gradient(
   45deg,
-  rgba(175,251,255,1) 0%, rgba(250,250,250,1) 16%, rgba(217,253,255,1) 34%, rgba(183,243,255,1) 51%, rgba(208,251,255,1) 69%, rgba(240,243,243,1) 82%, rgba(181,241,255,1) 100%);
-background-size: 300% 300%;
+    rgba(0,255,123,1) 0%, rgba(25,99,148,1) 35%, rgba(4,197,140,1) 72%, rgba(0,228,255,1) 100%);
+    background-size: 300% 300%;
 animation: ${RainbowLight} 6s linear infinite;
 border-radius: 16px;
 filter: blur(6px);
@@ -140,7 +140,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
   return (
 
     <Card isActive={isCardActive} isFinished={isFinished && sousId !== 0}>
-      {pool.stakingTokenName === 'IRID' && <StyledCardAccent />}
+      {pool.stakingTokenName === 'PLATIN' && <StyledCardAccent />}
       {isFinished && sousId !== 0 && <PoolFinishedSash />}
       <div style={{ padding: '24px' }}>
         <CardTitle isFinished={isFinished && sousId !== 0}>
@@ -206,7 +206,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
                 <StyledActionSpacer />
                 {!isOldSyrup && (
                   <IconButton disabled={isFinished && sousId !== 0} onClick={onPresentDeposit}>
-                    <AddIcon color="background" />
+                    <AddIcon  />
                   </IconButton>
                 )}
               </>

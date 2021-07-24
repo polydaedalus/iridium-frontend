@@ -33,7 +33,7 @@ const StyledDetailsButton = styled.button`
   align-items: center;
   background-color: transparent;
   border: 0;
-  color: ${(props) => props.theme.colors.primary};
+  color: ${(props) => props.theme.colors.secondary};
   cursor: pointer;
   display: inline-flex;
   font-size: 16px;
@@ -48,6 +48,7 @@ const StyledDetailsButton = styled.button`
 
   & > svg {
     margin-left: 4px;
+    color: ${(props) => props.theme.colors.primary};
   }
 `
 
@@ -105,10 +106,10 @@ const CardFooter: React.FC<Props> = ({
                 <span role="img" aria-label="syrup">
                 {' '}
                 </span>
-                {TranslateString(999, 'Total DAI to be distributed')}
+                {TranslateString(999, 'Total IRID to be distributed')}
               </Label>
             </FlexFull>
-            <Balance fontSize="14px" isDisabled={isFinished} value={2000} decimals={0} />
+            <Balance fontSize="14px" isDisabled={isFinished} value={100} decimals={0} />
           </Row>
           <Row style={{ marginBottom: '4px' }}>
             <FlexFull>
@@ -116,10 +117,10 @@ const CardFooter: React.FC<Props> = ({
                 <span role="img" aria-label="syrup">
                 {' '}
                 </span>
-                {TranslateString(999, 'DAI/block')}
+                {TranslateString(999, 'IRID/block')}
               </Label>
             </FlexFull>
-            <Balance fontSize="14px" isDisabled={isFinished} value={0.0092} />
+            <Balance fontSize="14px" isDisabled={isFinished} value={0.0012} decimals={4}/>
           </Row>
           <Row style={{ marginBottom: '4px' }}>
             <FlexFull>
@@ -127,7 +128,7 @@ const CardFooter: React.FC<Props> = ({
                 <span role="img" aria-label="syrup">
                 {' '}
                 </span>
-                {TranslateString(999, 'Distributing until block #')}<a href="https://polygonscan.com/block/countdown/17136020" rel="noreferrer" target="_blank">17136020</a>
+                {TranslateString(999, 'Distributing until block #')}<a href="https://polygonscan.com/block/countdown/17285000" rel="noreferrer" target="_blank">17285000</a>
               </Label>
             </FlexFull>
           </Row>

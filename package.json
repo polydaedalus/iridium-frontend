@@ -39,7 +39,7 @@
     "bignumber.js": "^9.0.0",
     "chart.js": "^2.9.4",
     "iframe-resizer-react": "^1.1.0",
-    "iridiumfinance": "^1.0.3",
+    "iridiumfinance": "^1.0.4",
     "lodash": "^4.17.20",
     "react": "^17.0.2",
     "react-chartjs-2": "^2.11.1",
