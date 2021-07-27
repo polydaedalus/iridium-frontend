@@ -72,8 +72,9 @@ const Farm: React.FC = () => {
             {TranslateString(998, 'To reward our original layer holders, you may stake PLATIN to receive our new token, IRID.')}
         </Heading>
         <Heading as="h1" scale="md" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-            {TranslateString(10006, '100 IRID to be distributed over 48 hours before farming begins. Distribution begins at ')}<a href="https://polygonscan.com/block/countdown/17202000" rel="noreferrer" target="_blank">block #17202000</a>
+            {TranslateString(10006, '100 IRID has been fully distributed, and the pool is currently finished.')}
         </Heading>
+      <PoolTabButtons />
       <Divider />
       <FlexLayout>
         <Route exact path={`${path}`}>
