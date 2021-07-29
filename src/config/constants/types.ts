@@ -33,7 +33,8 @@ export enum QuoteToken {
   'MATIC' = 'MATIC',
   'DAI' = 'DAI',
   'PLATIN' = 'PLATIN',
-  'WETH' = 'WETH'
+  'WETH' = 'WETH',
+  'IRID-PLATIN' = 'IRID-PLATIN'
 }
 
 export enum PoolCategory {

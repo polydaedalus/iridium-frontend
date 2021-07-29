@@ -71,12 +71,11 @@ const Farm: React.FC = () => {
     <>
     <Page>
         <Heading as="h1" scale="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-            {TranslateString(998, 'To reward our original layer holders, you may stake PLATIN to receive our new token, IRID.')}
+            {TranslateString(10006, 'Stake IRID-PLATIN to earn other tokens.')}
         </Heading>
         <Heading as="h1" scale="md" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-            {TranslateString(10006, '100 IRID has been fully distributed, and the pool is currently finished.')}
+            {TranslateString(10006, 'Tokens are decided as per community vote. Pools last 7 days.')}
         </Heading>
-      <PoolTabButtons />
       <Divider />
       <FlexLayout>
         <Route exact path={`${path}`}>

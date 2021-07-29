@@ -17,11 +17,6 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Loyalty pool',
-    icon: 'GroupsIcon',
-    href: '/loyaltypool',
-  } ,
-  {
     label: 'Trade',
     icon: 'TradeIcon',
     items: [
@@ -45,11 +40,11 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
-  // {
-  //  label: 'Community Pools',
-  //  icon: 'GroupsIcon',
-  //  href: '/community',
-  // },
+  {
+    label: 'Community pools',
+    icon: 'GroupsIcon',
+    href: '/community',
+  } ,
   // {
   //   label: 'Pools',
   //   icon: 'PoolIcon',
