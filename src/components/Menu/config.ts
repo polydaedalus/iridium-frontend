@@ -86,10 +86,10 @@ const config: MenuEntry[] = [
     label: 'More',
     icon: 'MoreIcon',
     items: [
-      {
-        label: 'Github',
-        href: 'https://github.com/polydaedalus',
-      },
+      // {
+      //   label: 'Github',
+      //   href: 'https://github.com/polydaedalus',
+      // },
       {
         label: 'Docs',
         href: 'https://app.gitbook.com/@platinum-finance/s/iridium-finance/',
